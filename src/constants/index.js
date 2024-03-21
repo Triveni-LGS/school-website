@@ -26,10 +26,6 @@ export const navLinks = [
         link: 'facility',
     },
     {
-        id: 'Programs',
-        link: 'programs',
-    },
-    {
         id: 'Contact Us',
         link: 'contact'
     },
@@ -112,29 +108,6 @@ export const testimonials = [
         testimonial: 'I transferred to school during my sophomore year, and it was one of the best decisions I ever made. The transition was seamless, thanks to the warm and supportive environment created by both teachers and fellow students.',
     },
 ];
-
-// export const footerLinks = [
-//     {
-//         id: 1,
-//         link: "Home",
-//     },
-//     {
-//         id: 2,
-//         link: "About",
-//     },
-//     {
-//         id: 3,
-//         link: "Facility",
-//     },
-//     {
-//         id: 4,
-//         link: "Programs",
-//     },
-//     {
-//         id: 5,
-//         link: "Apply",
-//     },
-// ]
 
 export const footerContact = [
     {

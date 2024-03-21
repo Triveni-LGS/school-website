@@ -41,7 +41,7 @@ body{
   content: '';
   width: 100%;
   height: 3px;
-  background: #0b8219;
+  background: #035D84;
   position: absolute;
   top: 100%;
   left: 0;
@@ -49,6 +49,7 @@ body{
   transform: scaleX(0);
   transform-origin: left;
   transition: .5s;
+  z-index: 999;
 }
 
 .navbar .nav-links .link:hover::after{
@@ -57,7 +58,7 @@ body{
 }
 
 .navbar .nav-links .link.active{
-  color: #0b8219;
+  color: #035D84;
   font-weight: bold;
 }
 
@@ -124,12 +125,8 @@ body{
 }
 
 .show a:hover{
-  color: #0fb722;
+  color: #035D84;
 }
-
-/* Home Page */
-
-/* Home */
 .home{
   color: #ccc;
   display: flex;
@@ -137,7 +134,7 @@ body{
   justify-content: center;
   flex-direction: column;
   height: calc(100vh - 73px);
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/image1.webp') no-repeat center/cover;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
   width: 100%;
 }
 
@@ -154,12 +151,25 @@ body{
 }
 
 .home a{
-  background: #0b8219;
+  
+  text-align: center;
+  background: #035D84;
   padding: 7px 17px;
   margin-top: 15px;
   color: #fff;
-}
+  display:flex;
+  justify-content: center;
+  width:max-content;
 
+}
+.video-bg{
+  width: 100%;
+ height: calc(100vh - 73px);
+  position: absolute;
+  top: 75px;
+  z-index: -1;
+  object-fit: cover;
+}
 .home a:hover{
   transform: scale(1.2);
   transition: .5s;
@@ -184,7 +194,7 @@ body{
   transform: translateX(-50%);
   width: 70px;
   height: 4px;
-  background: #0b8219;
+  background: #035D84;
 }
 
 /* Mission and Vision */
@@ -198,7 +208,7 @@ body{
 .missVis{
   width: 400px;
   margin: 20px;
-  border: 2px solid #0b8219;
+  border: 2px solid #00AFC7;
   padding: 20px;
   border-radius: 10px;
   position: relative;
@@ -207,11 +217,11 @@ body{
 .missVis .icons{
   font-size: 40px;
   position: absolute;
-  border: 2px solid #0b8219;
+  border: 2px solid #00AFC7;
   padding: 10px 10px 0 10px;
   top: -30px;
   left: 10%;
-  color: #0b8219;
+  color: #00AFC7;
   background: #fff;
   border-radius: 10px;
 }
@@ -252,12 +262,12 @@ body{
 }
 
 .reason .icon{
-  color: #003e07;
+  color: #00ffff;
   font-size: 30px;
 }
 
 .reason h2{
-  color: #003e07;
+  color: #00ffff;
 }
 
 .reasons .reason:last-child{
@@ -293,7 +303,7 @@ body{
 
 article .icon{
   font-size: 40px;
-  color: #0b8219;
+  color: #035D84;
 }
 
 article.activeSlide{
@@ -472,7 +482,7 @@ footer .col h2{
   left: 0;
   width: 60px;
   height: 4px;
-  background: #0b8219;
+  background: #035D84;
 }
 
 .about-info .vc-image{
@@ -518,7 +528,7 @@ footer .col h2{
 .parts .part h3{
   font-size: 27px;
   margin-top: 15px;
-  color: #0b8219;
+  color: #035D84;
 }
 
 @media (max-width: 1000px) {
@@ -598,13 +608,13 @@ footer .col h2{
 
 .address .add .icon{
   font-size: 20px;
-  color: #0b8219;
+  color: #035D84;
   margin-right: 20px;
 }
 
 #contact-form{
   width: 450px;
-  background: linear-gradient(45deg, #0b8219 ,#0b8219);
+  background: linear-gradient(45deg, #035D84, #035D84);
   padding: 20px 40px;
   border-radius: 10px;
 }
@@ -644,7 +654,7 @@ footer .col h2{
 #btn{
   padding: 8px 14px;
   background: #cfcfcf;
-  color: #0b8219;
+  color: #035D84;
   border: 1px solid #cfcfcf;
   border-radius: 8px;
   margin-top: 10px;
@@ -689,7 +699,7 @@ footer .col h2{
   transform: translateX(-50%);
   height: 4px;
   width: 60px;
-  background: #0b8219;
+  background: #035D84;
 }
 
 .course-programs{
@@ -715,7 +725,7 @@ footer .col h2{
 }
 
 .course-programs .pro-link:hover p:first-child{
-  color: #0b8219;
+  color: #035D84;
 }
 /* Programs */
 
@@ -747,7 +757,7 @@ footer .col h2{
 
 .total-info .quick-info .icon{
   font-size: 40px;
-  color: #0b8219;
+  color: #035D84;
 }
 
 .total-info .quick-info .info{
@@ -790,7 +800,7 @@ footer .col h2{
 /* Admission Page */
 
 .admission {
-  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url('./assets/image25.jpg') no-repeat center/cover;
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url('./assets/image17.jpg') no-repeat center/cover;
 }
 
 .ad-info, .ad-more {
@@ -803,7 +813,7 @@ footer .col h2{
 }
 
 .ad-info a {
-  background: #0b8219;
+  background: #035D84;
   padding: 7px 17px;
   color: #fff;
 }

@@ -45,10 +45,10 @@ const ApplyNow = () => {
         </div>
         <div className="input-box">
             <label>Upload your WAEC or NECO Result</label>
-            <input type="file" style={{ borderBottom: 0 }} />
+            <input type="file" style={{ borderBottom: '0' }} />
           </div>
           
-          <button style={{ padding: '10px 17px', background: '#0b8219', border: 0, color: '#fff', marginTop: '20px' }}>Apply Now</button>
+          <button style={{ padding: '10px 17px', background: '#035D84', border: 0, color: '#fff', marginTop: '20px' }}>Apply Now</button>
     </form>
   )
 }
